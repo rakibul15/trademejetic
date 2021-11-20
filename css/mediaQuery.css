@@ -1,0 +1,47 @@
+@media (max-width: 1800px) {
+  .smartcontentImg img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  .txt {
+    position: absolute;
+    top: 100px;
+    left: 0%;
+    text-align: center;
+    width: 100%;
+  }
+  .txt h1 {
+    color: var(--white);
+    font-size: 40px;
+    letter-spacing: 2%;
+    margin-top: 40px;
+  }
+  .txt h2 {
+    color: #cdcdcd;
+    font-size: 28px;
+  }
+  .btn-contact {
+    background-color: var(--secondary);
+    font-size: 16px !important;
+    color: var(--white) !important;
+    padding: 16px 32px;
+    border-radius: 0px;
+    border: none !important;
+    margin-top: 40px;
+  }
+  .owl-theme .owl-dots,
+  .owl-theme .owl-nav {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    position: absolute;
+    bottom:20px !important;
+    left: 50% !important;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+  }
+}

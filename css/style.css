@@ -1,0 +1,369 @@
+/* Color */
+:root {
+  --secondary: #f39a00;
+  --white: #ffffff;
+  --fontColor: #212121;
+}
+
+/* Font Family */
+@font-face {
+  font-family: poppinsM;
+  src: url(../Assets/Fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: interM;
+  src: url(../Assets/Fonts/Inter-Medium.ttf);
+}
+@font-face {
+  font-family: interSemi;
+  src: url(../Assets/Fonts/Inter-SemiBold.ttf);
+}
+@font-face {
+  font-family: interR;
+  src: url(../Assets/Fonts/Inter-Regular.ttf);
+}
+
+/* Remove html and body default style */
+body{
+  padding: 0px !important;
+  margin: 0px !important;
+  overflow-x: hidden;
+}
+
+/* HomePage */
+.logoimage img {
+  width: 210px;
+  height: 93px;
+}
+.header{
+  background-color: #F2F3F7;
+}
+.nav-item a{
+  font-family: poppinsM;
+  font-size: 14px;
+  color: #000000 !important;
+}
+.pd-0{
+  padding: 0px !important;
+}
+.navbar{
+  padding: 0px !important;
+}
+.p-12{
+  padding-top:12px;
+  padding-bottom: 12px;
+}
+.m-33{
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.top_nav p{
+  font-family: interR;
+  font-size: 16px;
+}
+
+
+.imgCarousel img {
+  position: relative;
+}
+
+.txt {
+  position: absolute;
+  top: 162px;
+  left: 34%;
+  text-align: center;
+  width: 36%;
+}
+.txt h2 {
+  color: #cdcdcd;
+  font-size: 32px;
+}
+.txt h1 {
+  color: var(--white);
+  font-size: 60px;
+  letter-spacing: 2%;
+  margin-top: 20px;
+}
+.btn-contact {
+  background-color: var(--secondary);
+  font-size: 16px !important;
+  color: var(--white) !important;
+  padding: 16px 32px;
+  border-radius: 0px;
+  border: none !important;
+  margin-top: 50px;
+}
+.owl-carousel .owl-item img {
+  display: block;
+  width: 100%;
+  max-height: 640px;
+  object-fit: cover;
+}
+nav {
+  align-items: flex-end !important;
+}
+.pdt-70 {
+  padding-top: 70px;
+}
+.ourServices {
+  background-color: #f2f3f7;
+}
+
+.ourServices h1 {
+  font-size: 48px;
+  margin: 0px;
+  font-family: poppinsM;
+}
+.title span {
+  border-color: #f39a00;
+  border-style: solid;
+  border-width: 0px 0px 4px 0px;
+  display: inline-block;
+  font-size: 30px;
+  padding: 0px 70px;
+  text-align: center;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+.serviceContet {
+  text-align: center;
+}
+.serviceContet h5 {
+  text-align: center;
+  font-size: 16px;
+  font-family: interSemi;
+}
+.serviceContet img {
+  height: 72px;
+  height: 72px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+.mb-70 {
+  padding-bottom: 70px;
+}
+.softwareBg {
+  background: radial-gradient(
+    266.7% 359.47% at 8.39% 13.38%,
+    #1a2737 3.61%,
+    #0097dc 99.07%
+  );
+  transform: rotate(-180deg);
+}
+.reverseTrans {
+  transform: rotate(-180deg);
+}
+.softHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.softTxt h5 {
+  font-family: interM;
+  font-size: 48px;
+  color: var(--white);
+  margin: 0px !important;
+}
+.softTxt span {
+  border-color: #f39a00;
+  border-style: solid;
+  border-width: 0px 0px 4px 0px;
+  display: inline-block;
+  font-size: 30px;
+  padding: 0px 70px;
+  text-align: center;
+}
+.btn-softsee {
+  font-size: 16px;
+  background-color: var(--white);
+  color: var(--fontColor);
+  padding: 16px 32px;
+  font-family: interM;
+  vertical-align: middle;
+  border-radius: 0px !important;
+}
+.pd-70 {
+  padding-top: 70px;
+}
+.softwareMain img {
+  width: 100%;
+  height: 219px;
+  object-fit: cover;
+}
+.softwareMain h5 {
+  font-family: interM;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--white);
+  margin-top: 12px;
+}
+.softwareMain p {
+  font-family: interR;
+  font-size: 14px;
+  line-height: 28px;
+  margin-top: 12px;
+  color: #e4e4e4;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+.pb-70 {
+  padding-bottom: 70px;
+}
+.smartLight {
+  background-color: #f2f3f7;
+}
+.smartContent {
+  padding-top: 83px;
+}
+.smartContent h1 {
+  font-family: interM;
+  font-size: 48px;
+  letter-spacing: 4%;
+}
+.smartContent p {
+  font-family: interR;
+  font-size: 16px;
+  line-height: 32px;
+}
+.smartContent span {
+  border-color: #f39a00;
+  border-style: solid;
+  border-width: 0px 0px 4px 0px;
+  display: inline-block;
+  font-size: 30px;
+  padding: 0px 70px;
+  text-align: center;
+}
+.smartcontentImg img {
+  width: 570px;
+  height: 570px;
+  object-fit: cover;
+}
+
+.slider .owl-theme .owl-dots .owl-dot span {
+  display: none;
+}
+.slider .owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  display: none;
+}
+.slider {
+  padding: 62px 30px;
+}
+
+.footer {
+  background: radial-gradient(
+    266.7% 359.47% at 8.39% 13.38%,
+    #1a2737 3.61%,
+    #0097dc 99.07%
+  );
+}
+
+.footerContent{
+  padding-top:96px ;
+}
+.firstcol img{
+  width: 136px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.firstcol p{
+  font-family: interR;
+  font-size: 18px;
+  margin-top: 24px;
+  color:#DBDBDB;
+}
+.secondcol{
+  margin-top: 27px;
+}
+.secondcol h5{
+  font-size: 20px;
+  font-family: interSEmi;
+  margin-bottom: 33px;
+  color: var(--white);
+}
+.secondcol p{
+  font-size:16px;
+  font-family: interR;
+  color: var(--white);
+  line-height: 22px;
+}
+.mt-24{
+  margin-top: 24px;
+}
+.secondcol input{
+  width:90%;
+  height: 50px;
+  padding: 14px 21px;
+  font-family: interR;
+  font-size: 16px;
+  margin-top: 36px;
+}
+
+.btn-subscribe{
+  width:90%;
+  height: 50px;
+  padding: 14px 92px;
+  font-family: interM;
+  font-size: 18px;
+  margin-top: 36px;
+  background-color: var(--secondary);
+  color: var(--white);
+}
+.gallery{
+ display: flex;
+  width: 100%;
+ 
+}
+.grid-item{
+  width:50%;
+}
+.grid-item img{
+  width:100%;
+}
+
+.socialIcon img{
+  width:65%;
+  
+}
+.hr{
+  border-bottom: 1px solid #C4C4C4;
+
+}
+.coyright{
+  text-align: center;
+  color: var(--white);
+  font-family: interR;
+  font-size: 16px;
+  margin-top: 22px;
+  padding-bottom: 22px;
+}
+
+.pb-17{
+  padding-bottom: 17px;
+}
+#navbarNav ul{
+  margin-left: auto !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 3rem;
+  padding-right: 0.5rem;
+}
+/* container */
+@media (min-width: 1900px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1492px;
+  }
+
+ 
+}
