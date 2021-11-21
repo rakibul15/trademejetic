@@ -404,3 +404,8 @@ nav {
 .txt_black h1{
   text-shadow: 2px 2px 7px black;
 }
+
+.slider .owl-carousel .owl-item img {
+  display: block;
+  width: 75%;
+}
