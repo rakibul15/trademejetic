@@ -470,9 +470,16 @@ nav {
   display: block;
   width: 75%;
 }
+.dropdown-menu {
+border: none;
+padding:10px;
+}
+
 
 .dropdown-menu a {
   font-family: interR;
+  padding: 12px 20px !important;
+  font-size: 14px;
 }
 
 .underContractionPage {
