@@ -57,9 +57,10 @@
     line-height: 26px;
   }
   .secondcol p {
-    font-size: 15px;
+    font-size: 12px;
     font-family: interR;
-    color: var(--white);
+    color:#DBDBDB;
+
     line-height: 22px;
 }
 .coyright {
