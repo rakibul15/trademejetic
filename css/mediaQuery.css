@@ -253,6 +253,19 @@
   .smartContent {
     padding-top:0px;
 }
+
+.singlePartner {
+  max-width: 100%;
+  transition: all 0.3s;
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+  object-fit: cover;
+  /* padding: 15px; */
+  background-color: white;
+  border-radius: 5px;
+}
 }
 
 @media (max-width: 991.98px) {
@@ -334,6 +347,9 @@
   object-fit: cover;
   margin-top: 30px;
 }
+
+
+
 }
 
 @media (max-width: 575.98px) {
@@ -366,5 +382,47 @@
   margin-top: 36px;
   background-color: var(--secondary);
   color: var(--white);
+}
+.singlePcon{
+  margin-top: 20px;
+}
+.underContractionPage h2 {
+  color: #CDCDCD;
+  font-family: interM;
+  font-size: 24px;
+}
+.underContractionPage h1 {
+  color: white;
+  font-family: interSemi;
+  font-size: 45px;
+  margin-top: 20px;
+}
+.singlePcon h1 {
+  font-size:19px;
+  font-family: interSemi;
+}
+.singlePcon h2 {
+  font-size: 16px;
+  font-family: interM;
+  margin-top: 15px;
+  text-align: justify;
+}
+.singlePcon p {
+  font-size: 13px;
+  font-family: interR;
+  margin-top: 15px;
+  text-align: justify;
+}
+.fa-arrow-alt-circle-right {
+  font-size: 40px;
+  cursor: pointer;
+}
+.singleProjects {
+  position: relative;
+  /* display: flex; */
+  margin-top: 41px;
+  padding: 10px;
+  background-color: #F6F6F6;
+  border-radius: 8px;
 }
 }
