@@ -640,3 +640,67 @@ transition: 0.5s;
   color: #0097dc;
   transition-duration: 1s;
 }
+nav ul{
+  padding: 0px !important;
+margin: 0px !important;
+}
+nav ul li{
+
+  position: relative;
+  list-style: none;
+  display: inline-block;
+  font-family: interR;
+  font-size: 14px;
+}
+nav ul li a{
+  display: block;
+  padding: 0 15px;
+  text-decoration: none;
+  line-height: 50px;
+  font-family: interR;
+  font-size: 20px;
+ align-items: center;
+}
+
+nav ul li ul {
+  position: absolute;
+  top: 60px;
+  display: none;
+}
+
+nav ul li:hover >ul{
+  display: block;
+  background-color:white;
+  z-index: 99999;
+
+}
+nav ul ul li{
+  width:330px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+nav ul ul ul{
+  position: absolute;
+  top:15px;
+  left:330px;
+}
+.navh:hover{
+  background-color: #e9ecef !important;
+}
+.mtR .fa{
+  margin-top: -5px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
