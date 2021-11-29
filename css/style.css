@@ -692,10 +692,15 @@ nav ul ul ul{
   margin-top: -5px !important;
 }
 
+.fa-sort-down{
+font-size:14px;
+margin-top: -5px!important;
+}
 
-
-
-
+.dib img{
+  width: 14px;
+  height: 14px;
+}
 
 
 
