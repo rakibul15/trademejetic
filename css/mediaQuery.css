@@ -425,4 +425,17 @@
   background-color: #F6F6F6;
   border-radius: 8px;
 }
+
+
+nav ul li ul {
+  position: static;
+  top: 60px;
+  display: none;
+}
+nav ul ul li {
+  width:100%;
+  float: none;
+  display: list-item;
+  position: relative;
+}
 }
